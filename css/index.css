@@ -51,5 +51,71 @@
 }
 #headMessage li.line{
     font-size: 12px;
-    color: #dddddd;
+    color: #ddd;
+    padding: 0 5px;
+}
+
+/* head ad */
+#headAd{
+    background-color: #f12f04;
+}
+#headAd .go{
+    display: block;
+    padding: 10px 10px 10px 15px;
+}
+#headAd .go img{
+    width: 80px;
+    height: 80px;
+}
+#headAd ul{
+    padding-top: 13px;
+}
+#headAd li{
+    float: left;
+    width: 209px;
+    height: 75px;
+    margin-right: 10px;
+    padding: 12px 15px 0 15px;
+    box-sizing: border-box;
+    /* box model
+        1. standard
+            width = border(left,right) + width + padding(left,right)
+            height = border(up,down) + height + padding(up,down)
+        2. IE box model()
+            width = width 
+            height = height 
+    */
+}
+#headAd h3{
+    font-size: 20px;
+    line-height: 28px;
+}
+#headAd p{
+    font-size: 14px;
+    line-height: 20px;
+}
+#headAd li a{
+    color: #fff;
+    display: block;
+}
+#headAd li a img{
+    width: 52px;
+    height: 52px;
+    border-radius: 5px;
+}
+#headAd li.item1{
+    background: url(../images/adbg_01.png) no-repeat;
+}
+#headAd li.item2{
+    background: url(../images/adbg_02.png) no-repeat;
+}
+#headAd li.item3{
+    background: url(../images/adbg_03.png) no-repeat;
+}
+#headAd li.item4{
+    background: url(../images/adbg_04.png) no-repeat;
+}
+#headAd li.item5{
+    background: url(../images/adbg_05.png) no-repeat;
+    margin-right: 0;
 }
