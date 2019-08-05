@@ -307,7 +307,35 @@
 .firstLeft .sideNav{
     width: 190px;
     height: 522px;
-    background-color: #ddd;
+    background-color: #fff;
+    border: 1px solid #ff5000;
+    box-sizing: border-box;
+    border-top: none;
+    padding-top: 5px;
+}
+.firstLeft .sideNav li{
+    height: 32px;
+    line-height: 32px;
+    padding-left: 25px;
+    transition: background-color 0.3s;
+    color: #999;
+}
+.firstLeft .sideNav li a{
+    font-size: 14px;
+}
+.firstLeft .sideNav li span{
+    font-size: 16px;
+    margin-right: 5px;
+}
+.firstLeft .sideNav li:hover{
+    background-color: #ffe4dc;
+    color: #f50;
+}
+.firstLeft .sideNav li:hover a{
+    color: #f50;
+}
+.firstLeft .sideNav a:hover{
+    text-decoration: underline;
 }
 .firstLeft .img1Box{
     width: 690px;
