@@ -319,9 +319,11 @@
     padding-left: 25px;
     transition: background-color 0.3s;
     color: #999;
+    font-size: 14px;
 }
 .firstLeft .sideNav li a{
     font-size: 14px;
+    color: #666;
 }
 .firstLeft .sideNav li span{
     font-size: 16px;
@@ -356,6 +358,9 @@
     cursor: pointer;
     border: none;
     background-color: rgba(0, 0, 0, 0.3);
+    /* support IE edition under 9 */
+    background-color: #000\9;
+    filter: alpha(opacity=30);
 
     position: absolute;
     top: 50%;
