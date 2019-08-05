@@ -299,3 +299,34 @@
     margin-left: -12px;
 
 }
+
+/* first page */
+.firstLeft{
+    width: 890px;
+}
+.firstLeft .sideNav{
+    width: 190px;
+    height: 522px;
+    background-color: #ddd;
+}
+.firstLeft .img1Box{
+    width: 690px;
+    height: 282px;
+    background-color: #eee;
+}
+.firstLeft .img2Box{
+    margin-top: 10px;
+    width: 690px;
+    height: 230px;
+    background-color: #6c6c6c;
+}
+.firstLeft .news{
+    width: 890px;
+    height: 100px;
+    background-color: #999;
+}
+.firstRight{
+    width: 290px;
+    height: 621px;
+    background-color: grey;
+}
