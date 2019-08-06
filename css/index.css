@@ -406,12 +406,57 @@
 .firstLeft .ad .img{
     width: 160px;
 }
-
+/* image2Box */
 .firstLeft .img2Box{
     margin-top: 10px;
     width: 690px;
-    height: 230px;
-    background-color: #6c6c6c;
+    height: 220px;
+}
+.firstLeft .img2Box .picTitle{
+    height: 20px;
+}
+.firstLeft .img2Box .picTitle .text{
+    height: 17px;
+    line-height: 17px;
+}
+.firstLeft .img2Box .picTitle .text .bg{
+    background: url(../images/title_bg.png) no-repeat left;
+    padding-left: 136px;
+    color: #666;
+}
+.firstLeft .img2Box .picTitle .text i{
+    color: #ff1648;
+}
+.firstLeft .img2Box .picTitle .line{
+    height: 3px;
+    background: #999;
+    position: relative;
+}
+.firstLeft .img2Box .picTitle .line span{
+    width: 87px;
+    height: 3px;
+    background-color: #000;
+    position: absolute;
+    left: 0;
+}
+.firstLeft .img2Box .img{
+    width: 520px;
+    height: 200px;
+    background-color: #fff;
+    position: relative;
+
+    display: table-cell;
+    vertical-align: middle;
+    /* display: flex;
+    justify-content: space-around;
+    align-items: center; */
+}
+.firstLeft .img2Box .img img{
+    margin: 0 10px;
+}
+.firstLeft .img2Box .ad .title{
+    height: 20px;
+    line-height: 20px;
 }
 .firstLeft .news{
     width: 890px;
