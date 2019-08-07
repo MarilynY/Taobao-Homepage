@@ -697,3 +697,37 @@
 .firstRight .icon .item12 span{
 	background-position: 0 -484px; 
 }
+/* App */
+.firstRight .app{
+    height: 111px;
+    background: #fff;
+}
+.firstRight .app title{
+    height: 30px;
+    line-height: 30px;
+}
+.firstRight .app h3{
+    font-size: 14px;
+    padding-left: 14px;
+}
+.firstRight .app a{
+    margin-right: 10px;
+}
+.firstRight .app a:hover{
+    color: #f40;
+}
+.firstRight .app .appIcon{
+    text-align: center;
+    font-size: 0;
+    margin-top: 7px;
+}
+.firstRight .app .appIcon li{
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    margin: 0 10px 8px 10px;
+}
+.firstRight .app .appIcon li img{
+    width: 32px;
+    height: 32px;
+}
